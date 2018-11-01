@@ -4,6 +4,10 @@ header{
     font-weight: bold;
 }
 
+main{
+    display: flex;
+}
+
 div{
     border: 2px solid black;
 }
@@ -14,10 +18,6 @@ div.image{
 
 .nav{
     display: inline-block;
-}
-
-.container{
-    display: flex;
 }
 
 .logo{
@@ -41,7 +41,7 @@ div.image{
     width: 240px;
 }
 
-.content{
+.text{
     font-family: Georgia;
     font-size: 17px;
     color: black;
@@ -55,24 +55,21 @@ div.image{
 }
 
 .headline.main{
-    font-family: Georgia;
-    font-weight: bold;
     font-size: 40px;
-    color: white;
 }
 
-.image #large-top{
+#large-top{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
 
-.image #large-medium{
+#large-medium{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
 
-.image #large-bottom{
+#large-bottom{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 }
 
-.image #medium-bottom{
+#medium-bottom{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 }
