@@ -30,6 +30,7 @@ div.image{
 
 .column.large{
     width: 630px;
+    align-content: center;
 }
 
 .column.medium{
@@ -47,10 +48,16 @@ div.image{
 }
 
 .headline{
-    display: flex;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
+    color: white;
+}
+
+.headline.main{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
     color: white;
 }
 
