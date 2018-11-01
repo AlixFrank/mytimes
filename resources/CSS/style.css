@@ -2,6 +2,9 @@ header{
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
 }
 
 main{
@@ -16,21 +19,36 @@ div.image{
     display: flex;
 }
 
+.logo{
+    width: 776.375px 60px;
+    padding-left: 30px;
+}
+
+.logo image{
+    width: 70px;
+    height: 60px;
+    margin-right: 12px;
+}
+
 .nav{
     display: inline-block;
+    justify-content: flex-end;
+    padding: 20px 10px;
+    color: black;
 }
 
 .logo{
     color: MediumAquamarine;
+    align-items: center;
 }
 
 .column{
     display: flex;
+    flex-flow: column wrap;
 }
 
 .column.large{
     width: 630px;
-    align-content: center;
 }
 
 .column.medium{
@@ -58,8 +76,13 @@ div.image{
     font-size: 40px;
 }
 
+.main{
+    width: 630px;
+}
+
 #large-top{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+
 }
 
 #large-medium{
