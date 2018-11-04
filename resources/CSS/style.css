@@ -14,8 +14,8 @@ header{
 
 main{
     display: flex;
-    position: relative;
-    top: 40px;
+    padding-top: 116px;
+    margin: 0 auto 78px auto;
 }
 
 div{
@@ -62,14 +62,17 @@ div.image{
 
 .column.large{
     width: 630px;
+    margin-right: 32px;
 }
 
 .column.medium{
     width: 300px;
+    margin-right: 32px;
 }
 
 .column.small{
     width: 240px;
+    margin-right: 32px;
 }
 
 .text{
