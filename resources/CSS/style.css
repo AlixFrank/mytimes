@@ -39,6 +39,11 @@ div.image{
     margin-right: 12px;
 }
 
+.logo span{
+    color: MediumAquamarine;
+    align-items: center;
+}
+
 .navigation{
     padding-right: 40px;
 }
@@ -50,11 +55,6 @@ div.image{
     color: black;
 }
 
-.logo{
-    color: MediumAquamarine;
-    align-items: center;
-}
-
 .column{
     display: flex;
     flex-flow: column wrap;
@@ -63,6 +63,8 @@ div.image{
 .column.large{
     width: 630px;
     margin-right: 32px;
+    flex-flow: row wrap;
+    justify-content:space-between;
 }
 
 .column.medium{
@@ -86,14 +88,26 @@ div.image{
     font-weight: bold;
     font-size: 30px;
     color: white;
+    text-align: center;
+    align-items: flex-start;
 }
 
 .headline.main{
     font-size: 40px;
+    text-align: left;
+    align-items: flex-start;
 }
 
 .main{
     width: 630px;
+}
+
+.story.large.middle, .story.large.bottom{
+    width: 299px;
+}
+
+.image.large{
+    margin-top: 15px;
 }
 
 #large-top{
