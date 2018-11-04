@@ -5,10 +5,17 @@ header{
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    background: white;
+    height: 80px;
+    width: 100%;
 }
 
 main{
     display: flex;
+    position: relative;
+    top: 40px;
 }
 
 div{
@@ -20,14 +27,20 @@ div.image{
 }
 
 .logo{
-    width: 776.375px 60px;
+    display: flex;
+    width: 774.375px;
+    height: 60px;
     padding-left: 30px;
 }
 
-.logo image{
+.logo img{
     width: 70px;
     height: 60px;
     margin-right: 12px;
+}
+
+.navigation{
+    padding-right: 40px;
 }
 
 .nav{
